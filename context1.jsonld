@@ -1,0 +1,1891 @@
+{
+    "@context": {
+        "0": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#0",
+        "1": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#1",
+        "2": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#2",
+        "3": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#3",
+        "37": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#37",
+        "37,38": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#37,38",
+        "37,38,39": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#37,38,39",
+        "37,39": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#37,39",
+        "38": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#38",
+        "38,39": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#38,39",
+        "39": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#39",
+        "4": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#4",
+        "5": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#5",
+        "6": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#6",
+        "7": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#7",
+        "AeroAllergenObserved": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AeroAllergenObserved",
+        "AgriApp": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AgriApp",
+        "AgriCrop": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AgriCrop",
+        "AgriFarm": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AgriFarm",
+        "AgriGreenhouse": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AgriGreenhouse",
+        "AgriParcel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AgriParcel",
+        "AgriParcelOperation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AgriParcelOperation",
+        "AgriParcelRecord": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AgriParcelRecord",
+        "AgriPest": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AgriPest",
+        "AgriProductType": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AgriProductType",
+        "AgriSoil": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AgriSoil",
+        "AirQualityObserved": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#AirQualityObserved",
+        "Alert": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Alert",
+        "Animal": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Animal",
+        "ArrivalEstimation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ArrivalEstimation",
+        "Beach": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Beach",
+        "BikeHireDockingStation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#BikeHireDockingStation",
+        "Building": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Building",
+        "BuildingOperation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#BuildingOperation",
+        "ByBankTransferInAdvance": "http://purl.org/goodrelations/v1#ByBankTransferInAdvance",
+        "ByInvoice": "http://purl.org/goodrelations/v1#ByInvoice",
+        "C0": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#C0",
+        "C1": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#C1",
+        "C2": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#C2",
+        "CCS/SAE": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#CCS/SAE",
+        "CHAdeMO": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#CHAdeMO",
+        "COD": "http://purl.org/goodrelations/v1#COD",
+        "Caravan_Mains_Socket": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Caravan_Mains_Socket",
+        "Cash": "http://purl.org/goodrelations/v1#Cash",
+        "CheckInAdvance": "http://purl.org/goodrelations/v1#CheckInAdvance",
+        "Chla": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Chla",
+        "Cl-": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Cl-",
+        "CrowdFlowObserved": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#CrowdFlowObserved",
+        "Device": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Device",
+        "DeviceModel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#DeviceModel",
+        "DirectDebit": "http://purl.org/goodrelations/v1#DirectDebit",
+        "Dual_CHAdeMO": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Dual_CHAdeMO",
+        "Dual_J-1772": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Dual_J-1772",
+        "Dual_Mennekes": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Dual_Mennekes",
+        "E0": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#E0",
+        "E1": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#E1",
+        "E2": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#E2",
+        "E9": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#E9",
+        "EVChargingStation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#EVChargingStation",
+        "FlowerBed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#FlowerBed",
+        "Garden": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Garden",
+        "GoogleCheckout": "http://purl.org/goodrelations/v1#GoogleCheckout",
+        "GreenspaceRecord": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GreenspaceRecord",
+        "GtfsAccessPoint": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsAccessPoint",
+        "GtfsAgency": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsAgency",
+        "GtfsCalendarDateRule": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsCalendarDateRule",
+        "GtfsCalendarRule": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsCalendarRule",
+        "GtfsFrequency": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsFrequency",
+        "GtfsRoute": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsRoute",
+        "GtfsService": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsService",
+        "GtfsShape": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsShape",
+        "GtfsStation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsStation",
+        "GtfsStop": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsStop",
+        "GtfsStopTime": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsStopTime",
+        "GtfsTransferRule": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsTransferRule",
+        "GtfsTrip": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#GtfsTrip",
+        "HPS": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#HPS",
+        "J-1772": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#J-1772",
+        "KeyPerformanceIndicator": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#KeyPerformanceIndicator",
+        "LED": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#LED",
+        "LPS": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#LPS",
+        "Mennekes": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Mennekes",
+        "Museum": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Museum",
+        "NH3": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#NH3",
+        "NH4": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#NH4",
+        "NO3": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#NO3",
+        "NoiseLevelObserved": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#NoiseLevelObserved",
+        "O2": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#O2",
+        "OffStreetParking": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#OffStreetParking",
+        "OnStreetParking": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#OnStreetParking",
+        "Open311ServiceRequest": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Open311ServiceRequest",
+        "Open311ServiceType": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Open311ServiceType",
+        "Other": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Other",
+        "PC": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#PC",
+        "PE": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#PE",
+        "ParkingAccess": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ParkingAccess",
+        "ParkingGroup": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ParkingGroup",
+        "ParkingSpot": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ParkingSpot",
+        "PayPal": "http://purl.org/goodrelations/v1#PayPal",
+        "PaySwarm": "http://purl.org/goodrelations/v1#PaySwarm",
+        "Point": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Point",
+        "PointOfInterest": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#PointOfInterest",
+        "Q-Quality": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Q-Quality",
+        "Road": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Road",
+        "RoadSegment": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#RoadSegment",
+        "SmartPointOfInteraction": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#SmartPointOfInteraction",
+        "SmartSpot": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#SmartSpot",
+        "Streetlight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Streetlight",
+        "StreetlightControlCabinet": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#StreetlightControlCabinet",
+        "StreetlightGroup": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#StreetlightGroup",
+        "StreetlightModel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#StreetlightModel",
+        "TBD": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#TBD",
+        "Tesla": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Tesla",
+        "ThreePhaseAcMeasurement": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ThreePhaseAcMeasurement",
+        "TimeInstant": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#TimeInstant",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "TrafficFlowObserved": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#TrafficFlowObserved",
+        "Type2": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Type2",
+        "Type3": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Type3",
+        "UserActivity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#UserActivity",
+        "UserContext": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#UserContext",
+        "Vehicle": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Vehicle",
+        "VehicleModel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#VehicleModel",
+        "Wall_Euro": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#Wall_Euro",
+        "WasteContainer": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#WasteContainer",
+        "WasteContainerIsle": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#WasteContainerIsle",
+        "WasteContainerModel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#WasteContainerModel",
+        "WaterQualityObserved": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#WaterQualityObserved",
+        "WeatherForecast": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#WeatherForecast",
+        "WeatherObserved": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#WeatherObserved",
+        "aborted": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#aborted",
+        "abs": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#abs",
+        "acceptedPaymentMethod": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#acceptedPaymentMethod",
+            "@type": "@vocab"
+        },
+        "accessType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#accessType",
+            "@type": "@vocab"
+        },
+        "accessforDisabled": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#accessforDisabled",
+        "acropolis": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#acropolis",
+        "actionable": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#actionable",
+        "active": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#active",
+        "activeEnergyExport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#activeEnergyExport",
+        "activeEnergyImport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#activeEnergyImport",
+        "activePower": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#activePower",
+        "activeProgramId": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#activeProgramId",
+        "activityType": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#activityType",
+        "actuationHours": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#actuationHours",
+        "additionalIntervalPrice": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#additionalIntervalPrice",
+        "address": "https://schema.org/address",
+        "adequate": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#adequate",
+        "aggregateRating": "https://schema.org/aggregateRating",
+        "aggregatedData": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#aggregatedData",
+        "agriculturalVehicle": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#agriculturalVehicle",
+        "agriculture": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#agriculture",
+        "agroVocConcept": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#agroVocConcept",
+        "airPollution": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#airPollution",
+        "airQualityIndex": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#airQualityIndex",
+        "airQualityLevel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#airQualityLevel",
+        "airbag": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#airbag",
+        "airportTerminal": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#airportTerminal",
+        "alarm": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#alarm",
+        "alcazaba": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#alcazaba",
+        "alcazar": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#alcazar",
+        "alertSource": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#alertSource",
+            "@type": "@id"
+        },
+        "allergenRisk": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#allergenRisk",
+            "@type": "@vocab"
+        },
+        "allowedVehicleType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#allowedVehicleType",
+            "@type": "@vocab"
+        },
+        "almostEmpty": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#almostEmpty",
+        "almostFull": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#almostFull",
+        "alternateName": "https://schema.org/alternateName",
+        "aluminium": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#aluminium",
+        "always-ON": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#always-ON",
+        "ambulance": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ambulance",
+        "amperage": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#amperage",
+        "amphitheatre": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#amphitheatre",
+        "annotations": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#annotations",
+        "announcedUrl": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#announcedUrl",
+        "announcementPeriod": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#announcementPeriod",
+        "annualPayment": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#annualPayment",
+        "anyVehicle": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#anyVehicle",
+        "apartments": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#apartments",
+        "apparentEnergyExport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#apparentEnergyExport",
+        "apparentEnergyImport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#apparentEnergyImport",
+        "apparentPower": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#apparentPower",
+        "applicationUrl": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#applicationUrl",
+        "appliedArts": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#appliedArts",
+        "appliesOn": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#appliesOn",
+        "aqueduct": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#aqueduct",
+        "arcade": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#arcade",
+        "arch": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#arch",
+        "archaeology": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#archaeology",
+        "archeologicalSite": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#archeologicalSite",
+        "architecture": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#architecture",
+        "area": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#area",
+        "areaCovered": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#areaCovered",
+        "areaSeperatedFromSurroundings": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#areaSeperatedFromSurroundings",
+        "areaServed": "https://schema.org/areaServed",
+        "arrivalEstimationUpdate": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#arrivalEstimationUpdate",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "arrivalTime": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#arrivalTime",
+        "artPeriod": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#artPeriod",
+        "assault": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#assault",
+        "asthmaAttack": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#asthmaAttack",
+        "astronomicalClock": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#astronomicalClock",
+        "atmosphericPressure": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#atmosphericPressure",
+        "audioguide": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#audioguide",
+        "auditory": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#auditory",
+        "autogas": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#autogas",
+        "automatedParkingGarage": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#automatedParkingGarage",
+        "automatic": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#automatic",
+        "automaticParkingGuidance": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#automaticParkingGuidance",
+        "auxiliaryServices": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#auxiliaryServices",
+        "availability": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#availability",
+        "availableBikeNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#availableBikeNumber",
+        "availableCapacity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#availableCapacity",
+        "availableSpotNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#availableSpotNumber",
+        "avalancheRisk": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#avalancheRisk",
+        "averageCrowdSpeed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#averageCrowdSpeed",
+        "averageGapDistance": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#averageGapDistance",
+        "averageHeadwayTime": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#averageHeadwayTime",
+        "averageSpotLength": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#averageSpotLength",
+        "averageSpotWidth": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#averageSpotWidth",
+        "averageVehicleLength": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#averageVehicleLength",
+        "averageVehicleSpeed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#averageVehicleSpeed",
+        "backCamera": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#backCamera",
+        "backward": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#backward",
+        "bacteria": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bacteria",
+        "bad": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bad",
+        "bakehouse": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bakehouse",
+        "balancing": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#balancing",
+        "bandalized": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bandalized",
+        "barn": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#barn",
+        "barrierAccess": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#barrierAccess",
+        "basilica": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#basilica",
+        "batteries": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#batteries",
+        "batteryLevel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#batteryLevel",
+        "bbox": {
+            "@container": "@list",
+            "@id": "https://purl.org/geojson/vocab#bbox"
+        },
+        "beachType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#beachType",
+            "@type": "@vocab"
+        },
+        "belongsTo": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#belongsTo",
+            "@type": "@id"
+        },
+        "bicycle": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bicycle",
+        "bikeParking": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bikeParking",
+        "bimonthly": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bimonthly",
+        "binTrolley": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#binTrolley",
+        "biodiesel ethanol": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#biodiesel ethanol",
+        "birthdate": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#birthdate",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "biweekly": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#biweekly",
+        "blackSand": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#blackSand",
+        "block": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#block",
+        "blueFlag": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#blueFlag",
+        "bluetoothChannel": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bluetoothChannel",
+            "@type": "@vocab"
+        },
+        "boat": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#boat",
+        "bollard": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bollard",
+        "bootingUp": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bootingUp",
+        "borehole": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#borehole",
+        "botanical": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#botanical",
+        "brandName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#brandName",
+        "breed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#breed",
+        "bridge": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bridge",
+        "broken": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#broken",
+        "brokenLantern": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#brokenLantern",
+        "buildingFire": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#buildingFire",
+        "buildingType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#buildingType",
+            "@type": "@vocab"
+        },
+        "bullfighting": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bullfighting",
+        "bullfightingRing": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bullfightingRing",
+        "bumpedPatient": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bumpedPatient",
+        "bungalow": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bungalow",
+        "bunker": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bunker",
+        "burialMound": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#burialMound",
+        "burning": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#burning",
+        "bus": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#bus",
+        "businessTarget": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#businessTarget",
+        "cabin": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cabin",
+        "cableCarStation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cableCarStation",
+        "cafeteria": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cafeteria",
+        "calculatedBy": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#calculatedBy",
+        "calculationFormula": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#calculationFormula",
+        "calculationFrequency": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#calculationFrequency",
+            "@type": "@vocab"
+        },
+        "calculationMethod": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#calculationMethod",
+            "@type": "@vocab"
+        },
+        "calculationPeriod": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#calculationPeriod",
+        "calmWaters": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#calmWaters",
+        "calvedBy": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#calvedBy",
+            "@type": "@id"
+        },
+        "campground": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#campground",
+        "cancelled": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cancelled",
+        "capacity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#capacity",
+        "car": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#car",
+        "carAccident": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#carAccident",
+        "carSharing": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#carSharing",
+        "carStopped": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#carStopped",
+        "carWithCaravan": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#carWithCaravan",
+        "carWithTrailer": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#carWithTrailer",
+        "carWrongDirection": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#carWrongDirection",
+        "caravan": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#caravan",
+        "cargoTransport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cargoTransport",
+        "cargoVolume": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cargoVolume",
+        "cargoWeight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cargoWeight",
+        "carport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#carport",
+        "carports": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#carports",
+        "cartuja": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cartuja",
+        "cashMachine": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cashMachine",
+        "castle": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#castle",
+        "castro": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#castro",
+        "catacombs": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#catacombs",
+        "category": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#category",
+            "@type": "@vocab"
+        },
+        "cathedral": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cathedral",
+        "cathedralMuseum": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cathedralMuseum",
+        "cavesAndTouristicMines": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cavesAndTouristicMines",
+        "cctv": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cctv",
+        "cdom": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cdom",
+        "centralIsland": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#centralIsland",
+        "ceramics": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ceramics",
+        "chapel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#chapel",
+        "chargeType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#chargeType",
+            "@type": "@vocab"
+        },
+        "chinese": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#chinese",
+        "church": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#church",
+        "cinema": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cinema",
+        "circuit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#circuit",
+        "circular": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#circular",
+        "circus": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#circus",
+        "civic": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#civic",
+        "civilDisorder": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#civilDisorder",
+        "civilEngineering": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#civilEngineering",
+        "cleaningServices": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cleaningServices",
+        "cleaningTrolley": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cleaningTrolley",
+        "cloakRoom": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cloakRoom",
+        "cloister": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cloister",
+        "closed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#closed",
+        "closedAbnormal": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#closedAbnormal",
+        "cng": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cng",
+        "co-creation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#co-creation",
+        "co2": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#co2",
+        "coachStation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#coachStation",
+        "coastalEvent": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#coastalEvent",
+        "code": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#code",
+        "coldWave": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#coldWave",
+        "color": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#color",
+        "colorRenderingIndex": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#colorRenderingIndex",
+        "colorTemperature": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#colorTemperature",
+        "columnBrandName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#columnBrandName",
+        "columnColor": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#columnColor",
+        "columnIssue": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#columnIssue",
+        "columnMadeOf": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#columnMadeOf",
+            "@type": "@vocab"
+        },
+        "columnManufacturerName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#columnManufacturerName",
+        "columnModelName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#columnModelName",
+        "commercial": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#commercial",
+        "commercial supply": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#commercial supply",
+        "community": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#community",
+        "compliantWith": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#compliantWith",
+        "concrete": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#concrete",
+        "conductance": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#conductance",
+        "conductivity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#conductivity",
+        "conferenceRoom": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#conferenceRoom",
+        "configuration": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#configuration",
+        "congested": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#congested",
+        "conservatory": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#conservatory",
+        "construction": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#construction",
+        "constructionOrMaintenanceVehicle": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#constructionOrMaintenanceVehicle",
+        "contactPoint": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#contactPoint",
+        "containedInPlace": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#containedInPlace",
+        "containerFix": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#containerFix",
+        "contemporaryArt": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#contemporaryArt",
+        "controlledAsset": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#controlledAsset",
+            "@type": "@id"
+        },
+        "controlledProperty": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#controlledProperty",
+            "@type": "@vocab"
+        },
+        "controllingMethod": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#controllingMethod",
+            "@type": "@vocab"
+        },
+        "convent": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#convent",
+        "conventionCentre": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#conventionCentre",
+        "coordinates": {
+            "@container": "@list",
+            "@id": "https://purl.org/geojson/vocab#coordinates"
+        },
+        "copyMachineOrService": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#copyMachineOrService",
+        "cosPhi": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cosPhi",
+        "coverageRadius": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#coverageRadius",
+        "covered": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#covered",
+        "cow": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cow",
+        "cowshed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cowshed",
+        "critical": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#critical",
+        "cropNutrition": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cropNutrition",
+        "cropProtection": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cropProtection",
+        "cropStatus": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cropStatus",
+            "@type": "@vocab"
+        },
+        "cropVariety": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cropVariety",
+        "cupboardMadeOf": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#cupboardMadeOf",
+            "@type": "@vocab"
+        },
+        "current": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#current",
+        "currentStanding": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#currentStanding",
+            "@type": "@vocab"
+        },
+        "daily": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#daily",
+        "dailyLight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dailyLight",
+        "data": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#data",
+        "dataProvider": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dataProvider",
+        "dateActivityEnded": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateActivityEnded",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateActivityStarted": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateActivityStarted",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateCreated": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateCreated",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateEnergyMeteringStarted": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateEnergyMeteringStarted",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateExpires": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateExpires",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateFinished": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateFinished",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateFirstUsed": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateFirstUsed",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateInstalled": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateInstalled",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateIssued": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateIssued",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateLastCalibration": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateLastCalibration",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateLastCleaning": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateLastCleaning",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateLastEmptying": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateLastEmptying",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateLastLampChange": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateLastLampChange",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateLastProgramming": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateLastProgramming",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateLastSwitchingOff": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateLastSwitchingOff",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateLastSwitchingOn": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateLastSwitchingOn",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateLastValueReported": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateLastValueReported",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateLastWatering": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateLastWatering",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateManufactured": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateManufactured",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateMeteringStarted": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateMeteringStarted",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateModified": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateModified",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateNextCalculation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateNextCalculation",
+        "dateObserved": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateObserved",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateObservedFrom": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateObservedFrom",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateObservedTo": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateObservedTo",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateRetrieved": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateRetrieved",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateServiceStarted": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateServiceStarted",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateStarted": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateStarted",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "dateVehicleFirstRegistered": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dateVehicleFirstRegistered",
+        "day-LOW": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#day-LOW",
+        "day-OFF": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#day-OFF",
+        "day-ON": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#day-ON",
+        "dayMaximum": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dayMaximum",
+        "dayMinimum": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dayMinimum",
+        "decorativeArts": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#decorativeArts",
+        "defectiveLamp": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#defectiveLamp",
+        "defibrillator": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#defibrillator",
+        "departureTime": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#departureTime",
+        "depth": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#depth",
+        "description": "https://uri.etsi.org/ngsi-ld/description",
+        "detached": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#detached",
+        "deviceClass": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#deviceClass",
+            "@type": "@vocab"
+        },
+        "deviceState": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#deviceState",
+        "dewPoint": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dewPoint",
+        "diesel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#diesel",
+        "digester": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#digester",
+        "diocesanMuseum": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#diocesanMuseum",
+        "direction": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#direction",
+            "@type": "@vocab"
+        },
+        "directional": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#directional",
+        "disabledRamp": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#disabledRamp",
+        "displacementPowerFactor": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#displacementPowerFactor",
+        "distanceTravelled": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#distanceTravelled",
+        "documentation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#documentation",
+        "dog": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dog",
+        "dolmen": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dolmen",
+        "dormitory": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dormitory",
+        "drainFlow": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#drainFlow",
+        "dropOff": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dropOff",
+        "dropOffMechanical": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dropOffMechanical",
+        "dropOffType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dropOffType",
+            "@type": "@vocab"
+        },
+        "dropOffWithValet": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dropOffWithValet",
+        "dropped": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dropped",
+        "dumpingStation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dumpingStation",
+        "dumpster": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#dumpster",
+        "earthquake": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#earthquake",
+        "echelonParking": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#echelonParking",
+        "effectiveSince": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#effectiveSince",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "electric": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#electric",
+        "electricChargingStation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#electricChargingStation",
+        "electricityConsumption": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#electricityConsumption",
+        "electronics": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#electronics",
+        "elevator": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#elevator",
+        "elliptic": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#elliptic",
+        "employeePermit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#employeePermit",
+        "empty": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#empty",
+        "endDate": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#endDate",
+        "endKilometer": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#endKilometer",
+        "endPoint": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#endPoint",
+        "endTime": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#endTime",
+        "endedAt": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#endedAt",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "endpoint": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#endpoint",
+        "energy": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#energy",
+        "energyConsumed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#energyConsumed",
+        "energyCost": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#energyCost",
+        "energyLimitationClass": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#energyLimitationClass",
+            "@type": "@vocab"
+        },
+        "english": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#english",
+        "entertainment": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#entertainment",
+        "environment": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#environment",
+        "ethnology": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ethnology",
+        "eventNotification": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#eventNotification",
+        "eventParking": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#eventParking",
+        "exactTimes": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#exactTimes",
+        "exceptionType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#exceptionType",
+            "@type": "@vocab"
+        },
+        "exhibitonCentre": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#exhibitonCentre",
+        "extCategory": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#extCategory",
+        "externalSecurity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#externalSecurity",
+        "extraSpotNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#extraSpotNumber",
+        "facilities": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#facilities",
+            "@type": "@vocab"
+        },
+        "failed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#failed",
+        "fair": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fair",
+        "fairPermit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fairPermit",
+        "fairground": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fairground",
+        "fallenPatient": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fallenPatient",
+        "falling": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#falling",
+        "farm": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#farm",
+        "farm_auxiliary": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#farm_auxiliary",
+        "faxMachineOrService": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#faxMachineOrService",
+        "fa\u00e7ade": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fa\u00e7ade",
+        "feature": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#feature",
+            "@type": "@vocab"
+        },
+        "featuredArtist": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#featuredArtist",
+            "@type": "@id"
+        },
+        "features": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#features",
+            "@type": "@vocab"
+        },
+        "fedWith": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fedWith",
+            "@type": "@id"
+        },
+        "feeCharged": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#feeCharged",
+        "feelLikesTemperature": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#feelLikesTemperature",
+        "female": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#female",
+        "femaleAdult": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#femaleAdult",
+        "femaleYoung": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#femaleYoung",
+        "fenced": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fenced",
+        "fencedOff": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fencedOff",
+        "fences": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fences",
+        "ferryTerminal": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ferryTerminal",
+        "fertilisation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fertilisation",
+        "fertiliser": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fertiliser",
+        "field": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#field",
+        "fillingLevel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fillingLevel",
+        "financial": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#financial",
+        "fineArts": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fineArts",
+        "finished": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#finished",
+        "fireBrigade": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fireBrigade",
+        "fireExtinguisher": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fireExtinguisher",
+        "fireHose": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fireHose",
+        "fireHydrant": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fireHydrant",
+        "fireRisk": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fireRisk",
+        "firmwareVersion": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#firmwareVersion",
+        "firstAidEquipment": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#firstAidEquipment",
+        "firstAvailableFloor": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#firstAvailableFloor",
+        "firstIntervalPrice": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#firstIntervalPrice",
+        "fishMarket": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fishMarket",
+        "fixed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fixed",
+        "flashingBeacon": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#flashingBeacon",
+        "flat": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#flat",
+        "fleetVehicleId": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fleetVehicleId",
+        "flood": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#flood",
+        "floodLight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#floodLight",
+        "floodRisk": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#floodRisk",
+        "floorsAboveGround": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#floorsAboveGround",
+        "floorsBelowGround": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#floorsBelowGround",
+        "fog": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fog",
+        "forBabies": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#forBabies",
+        "forCustomers": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#forCustomers",
+        "forDisabled": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#forDisabled",
+        "forElectricalCharging": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#forElectricalCharging",
+        "forEmployees": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#forEmployees",
+        "forMembers": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#forMembers",
+        "forResidents": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#forResidents",
+        "forStudents": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#forStudents",
+        "forVisitors": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#forVisitors",
+        "forestFire": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#forestFire",
+        "fortifiedTemple": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fortifiedTemple",
+        "fortress": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fortress",
+        "forward": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#forward",
+        "free": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#free",
+        "freeAccess": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#freeAccess",
+        "freeSlotNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#freeSlotNumber",
+        "french": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#french",
+        "frequencies": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#frequencies",
+        "frequency": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#frequency",
+        "freshWater": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#freshWater",
+        "friday": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#friday",
+        "fuelConsumption": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fuelConsumption",
+        "fuelType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fuelType",
+            "@type": "@vocab"
+        },
+        "full": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#full",
+        "fullAtEntrance": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fullAtEntrance",
+        "function": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#function",
+            "@type": "@vocab"
+        },
+        "fungus": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#fungus",
+        "garage": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#garage",
+        "garageBoxes": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#garageBoxes",
+        "garages": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#garages",
+        "garbageCollection": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#garbageCollection",
+        "garbage_shed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#garbage_shed",
+        "garden": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#garden",
+        "gasComsumption": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#gasComsumption",
+        "gasoline": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#gasoline",
+        "gate": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#gate",
+        "gateAccess": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#gateAccess",
+        "glass": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#glass",
+        "goat": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#goat",
+        "good": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#good",
+        "goodsSelling": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#goodsSelling",
+        "governmentPermit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#governmentPermit",
+        "gps": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#gps",
+        "grandstand": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#grandstand",
+        "grave": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#grave",
+        "graveyard": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#graveyard",
+        "grazingBaby": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#grazingBaby",
+        "greenhouse": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#greenhouse",
+        "ground": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ground",
+        "group": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#group",
+        "growing": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#growing",
+        "guard24hours": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#guard24hours",
+        "guarded": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#guarded",
+        "guidedTour": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#guidedTour",
+        "hangar": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hangar",
+        "hardwareVersion": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hardwareVersion",
+        "harvestCommodity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#harvestCommodity",
+        "harvestingInterval": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#harvestingInterval",
+        "hasAccessPoint": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasAccessPoint",
+        "hasAgriCrop": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasAgriCrop",
+            "@type": "@id"
+        },
+        "hasAgriFertiliser": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasAgriFertiliser",
+            "@type": "@id"
+        },
+        "hasAgriParcel": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasAgriParcel",
+            "@type": "@id"
+        },
+        "hasAgriParcelChildren": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasAgriParcelChildren",
+            "@type": "@id"
+        },
+        "hasAgriParcelParent": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasAgriParcelParent",
+            "@type": "@id"
+        },
+        "hasAgriPest": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasAgriPest",
+            "@type": "@id"
+        },
+        "hasAgriProductType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasAgriProductType",
+            "@type": "@id"
+        },
+        "hasAgriProductTypeChildren": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasAgriProductTypeChildren",
+            "@type": "@id"
+        },
+        "hasAgriProductTypeParent": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasAgriProductTypeParent",
+            "@type": "@id"
+        },
+        "hasAgriSoil": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasAgriSoil",
+            "@type": "@id"
+        },
+        "hasBuilding": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasBuilding",
+            "@type": "@id"
+        },
+        "hasDestination": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasDestination",
+        "hasDevice": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasDevice",
+            "@type": "@id"
+        },
+        "hasDevices": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasDevices",
+            "@type": "@id"
+        },
+        "hasOperator": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasOperator",
+            "@type": "@id"
+        },
+        "hasOrigin": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasOrigin",
+        "hasParentStation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasParentStation",
+        "hasProvider": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasProvider",
+            "@type": "@id"
+        },
+        "hasRoute": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasRoute",
+        "hasService": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasService",
+        "hasShape": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasShape",
+        "hasStop": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasStop",
+        "hasTrip": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasTrip",
+        "hasWaterQualityObserved": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasWaterQualityObserved",
+            "@type": "@id"
+        },
+        "hasWeatherObserved": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hasWeatherObserved",
+            "@type": "@id"
+        },
+        "hazardOnRoad": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hazardOnRoad",
+        "hazardous": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hazardous",
+        "headSign": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#headSign",
+        "heading": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#heading",
+        "headsign": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#headsign",
+        "headwaySeconds": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#headwaySeconds",
+        "health": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#health",
+        "healthCondition": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#healthCondition",
+            "@type": "@vocab"
+        },
+        "healthy": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#healthy",
+        "heartAttack": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#heartAttack",
+        "heatWave": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#heatWave",
+        "hedge": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hedge",
+        "height": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#height",
+        "herb_garden": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#herb_garden",
+        "hermitage": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hermitage",
+        "high": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#high",
+        "highTemperature": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#highTemperature",
+        "highest": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#highest",
+        "highestFloor": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#highestFloor",
+        "historicalPeriod": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#historicalPeriod",
+        "history": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#history",
+        "horse": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#horse",
+        "hospital": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hospital",
+        "hostelry": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hostelry",
+        "hotel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hotel",
+        "hourly": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hourly",
+        "house": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#house",
+        "houseBuilding": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#houseBuilding",
+        "houseboat": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#houseboat",
+        "household": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#household",
+        "humidity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#humidity",
+        "hurricane": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hurricane",
+        "hut": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hut",
+        "hybrid electric/diesel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hybrid electric/diesel",
+        "hybrid electric/petrol": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hybrid electric/petrol",
+        "hydrogen": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#hydrogen",
+        "ice": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ice",
+        "iceFreeScaffold": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#iceFreeScaffold",
+        "illuminance": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#illuminance",
+        "illuminanceLevel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#illuminanceLevel",
+        "image": "https://schema.org/image",
+        "inCalf": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#inCalf",
+        "inHeat": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#inHeat",
+        "inTreatment": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#inTreatment",
+        "inactive": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#inactive",
+        "inbound": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#inbound",
+        "individual": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#individual",
+        "individualControl": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#individualControl",
+        "industrial": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#industrial",
+        "industrialBuilding": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#industrialBuilding",
+        "information": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#information",
+        "informationPoint": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#informationPoint",
+        "informational": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#informational",
+        "infotainment": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#infotainment",
+        "injuredBiker": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#injuredBiker",
+        "inorganic": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#inorganic",
+        "input": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#input",
+        "insect": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#insect",
+        "insertHoles": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#insertHoles",
+        "insertHolesNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#insertHolesNumber",
+        "inspection": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#inspection",
+        "intensity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#intensity",
+        "internetConnection": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#internetConnection",
+        "internetWireless": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#internetWireless",
+        "ipAddress": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ipAddress",
+        "irrigation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#irrigation",
+        "irrigationRecord": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#irrigationRecord",
+        "isleId": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#isleId",
+        "isolated": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#isolated",
+        "issue": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#issue",
+        "japanese": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#japanese",
+        "justBorn": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#justBorn",
+        "kindergarten": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#kindergarten",
+        "kiosk": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#kiosk",
+        "kissAndRide": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#kissAndRide",
+        "kitchen": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#kitchen",
+        "kpiValue": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#kpiValue",
+        "lactatingBaby": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lactatingBaby",
+        "lagging": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lagging",
+        "lampBrandName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lampBrandName",
+        "lampManufacturerName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lampManufacturerName",
+        "lampModelName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lampModelName",
+        "lampTechnology": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lampTechnology",
+            "@type": "@vocab"
+        },
+        "lampWeight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lampWeight",
+        "lamppost": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lamppost",
+        "landLocation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#landLocation",
+        "laneDirection": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#laneDirection",
+            "@type": "@vocab"
+        },
+        "laneId": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#laneId",
+        "laneUsage": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#laneUsage",
+            "@type": "@vocab"
+        },
+        "language": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#language",
+        "lanternBrandName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lanternBrandName",
+        "lanternManufacturerName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lanternManufacturerName",
+        "lanternModelName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lanternModelName",
+        "lanternWeight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lanternWeight",
+        "lastMeterReading": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lastMeterReading",
+        "lastPlantedAt": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lastPlantedAt",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "lastupdatedAt": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lastupdatedAt",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "laternHeight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#laternHeight",
+        "lawnArea": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lawnArea",
+        "layout": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#layout",
+            "@type": "@vocab"
+        },
+        "leading": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#leading",
+        "leafRelativeHumidity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#leafRelativeHumidity",
+        "leafTemperature": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#leafTemperature",
+        "leafWetness": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#leafWetness",
+        "legalId": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#legalId",
+        "length": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#length",
+        "levelControl": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#levelControl",
+        "lid": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lid",
+        "lidOpen": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lidOpen",
+        "lifeGuard": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lifeGuard",
+        "liftshare": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#liftshare",
+        "light": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#light",
+        "lightTower": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lightTower",
+        "lighting": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lighting",
+        "link": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#link",
+        "literature": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#literature",
+        "litterBins": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#litterBins",
+        "loadingBay": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#loadingBay",
+        "locatedAt": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#locatedAt",
+            "@type": "@id"
+        },
+        "location": "http://uri.etsi.org/ngsi-ld/location",
+        "locationCategory": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#locationCategory",
+            "@type": "@vocab"
+        },
+        "lockable": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lockable",
+        "longTerm": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#longTerm",
+        "lorry": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lorry",
+        "low": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#low",
+        "lowTemperature": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lowTemperature",
+        "lowest": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lowest",
+        "lowestFloor": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lowestFloor",
+        "lpg": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#lpg",
+        "luggageLocker": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#luggageLocker",
+        "luminousFlux": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#luminousFlux",
+        "macAddress": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#macAddress",
+        "madeOf": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#madeOf",
+            "@type": "@vocab"
+        },
+        "madeOfCode": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#madeOfCode",
+        "maintenance": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maintenance",
+        "male": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#male",
+        "maleAdult": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maleAdult",
+        "maleYoung": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maleYoung",
+        "mandatory": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#mandatory",
+        "mansion": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#mansion",
+        "manual": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#manual",
+        "manufacturerName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#manufacturerName",
+        "maritime": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maritime",
+        "market": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#market",
+        "masia": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#masia",
+        "masiaFortificada": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#masiaFortificada",
+        "maturing": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maturing",
+        "maxPowerConsumption": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maxPowerConsumption",
+        "maximum": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maximum",
+        "maximumAllowedDuration": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maximumAllowedDuration",
+        "maximumAllowedHeight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maximumAllowedHeight",
+        "maximumAllowedSpeed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maximumAllowedSpeed",
+        "maximumAllowedWeight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maximumAllowedWeight",
+        "maximumAllowedWidth": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maximumAllowedWidth",
+        "maximumLoad": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maximumLoad",
+        "maximumPowerAvailable": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#maximumPowerAvailable",
+        "measurand": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#measurand",
+        "measuresPeriod": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#measuresPeriod",
+        "measuresPeriodUnit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#measuresPeriodUnit",
+        "medicineAndPharmacy": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#medicineAndPharmacy",
+        "medium": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#medium",
+        "mediumTerm": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#mediumTerm",
+        "menhir": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#menhir",
+        "metal": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#metal",
+        "meterReadingPeriod": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#meterReadingPeriod",
+        "metering": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#metering",
+        "methaneConcentration": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#methaneConcentration",
+        "microbe": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#microbe",
+        "mileageFromOdometer": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#mileageFromOdometer",
+        "military": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#military",
+        "militaryBuilding": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#militaryBuilding",
+        "minPowerConsumption": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#minPowerConsumption",
+        "minaret": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#minaret",
+        "minibus": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#minibus",
+        "minimum": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#minimum",
+        "minimumAllowedSpeed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#minimumAllowedSpeed",
+        "minimumTransferTime": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#minimumTransferTime",
+        "mining": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#mining",
+        "mite": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#mite",
+        "mnc": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#mnc",
+        "modelBased": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#modelBased",
+        "modelName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#modelName",
+        "moderate": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#moderate",
+        "modernArt": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#modernArt",
+        "monastary": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#monastary",
+        "monastery": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#monastery",
+        "monday": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#monday",
+        "monolith": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#monolith",
+        "monthly": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#monthly",
+        "monthlyPayment": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#monthlyPayment",
+        "moped": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#moped",
+        "mosque": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#mosque",
+        "motion": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#motion",
+        "motorcycle": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#motorcycle",
+        "motorcycleWithSideCar": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#motorcycleWithSideCar",
+        "motorscooter": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#motorscooter",
+        "motorway": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#motorway",
+        "moved": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#moved",
+        "multiDisciplinar": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#multiDisciplinar",
+        "multiLevel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#multiLevel",
+        "multiStorey": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#multiStorey",
+        "municipal": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#municipal",
+        "municipalServices": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#municipalServices",
+        "museumHouse": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#museumHouse",
+        "museumType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#museumType",
+            "@type": "@vocab"
+        },
+        "music": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#music",
+        "name": "https://uri.etsi.org/ngsi-ld/name",
+        "naturalDisaster": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#naturalDisaster",
+        "naturalScience": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#naturalScience",
+        "necropolis": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#necropolis",
+        "nematodes": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#nematodes",
+        "nested": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#nested",
+        "network": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#network",
+        "nextActuationDeadline": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#nextActuationDeadline",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "nextCleaningDeadline": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#nextCleaningDeadline",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "nextWateringDeadline": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#nextWateringDeadline",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "night-LOW": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#night-LOW",
+        "night-OFF": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#night-OFF",
+        "night-ON": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#night-ON",
+        "noPermitNeeded": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#noPermitNeeded",
+        "noStatus": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#noStatus",
+        "nobleHouse": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#nobleHouse",
+        "noiseLevel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#noiseLevel",
+        "nonTracked": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#nonTracked",
+        "none": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#none",
+        "notAvailable": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#notAvailable",
+        "noxiousWeed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#noxiousWeed",
+        "numismatic": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#numismatic",
+        "observedAt": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#observedAt",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "occupancy": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#occupancy",
+        "occupancyDetectionType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#occupancyDetectionType",
+            "@type": "@vocab"
+        },
+        "occupationRate": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#occupationRate",
+            "@type": "@vocab"
+        },
+        "occupied": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#occupied",
+        "occupier": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#occupier",
+            "@type": "@id"
+        },
+        "off": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#off",
+        "office": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#office",
+        "officeBuilding": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#officeBuilding",
+        "offstreet": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#offstreet",
+        "oil": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#oil",
+        "ok": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ok",
+        "on": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#on",
+        "onDemand": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#onDemand",
+        "onFoot": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#onFoot",
+        "onOff": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#onOff",
+        "onRoute": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#onRoute",
+        "oneway": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#oneway",
+        "ongoing": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ongoing",
+        "onlyResidents": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#onlyResidents",
+        "onlyWithPermit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#onlyWithPermit",
+        "onstreet": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#onstreet",
+        "open": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#open",
+        "openClose": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#openClose",
+        "openSpace": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#openSpace",
+        "openingHours": "https://schema.org/openingHours",
+        "openingHoursSpecification": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#openingHoursSpecification",
+        "openingTimesInForce": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#openingTimesInForce",
+        "operatedBy": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#operatedBy",
+        "operationSequence": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#operationSequence",
+        "operationType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#operationType",
+            "@type": "@vocab"
+        },
+        "operator": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#operator",
+        "optional": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#optional",
+        "organic": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#organic",
+        "organization": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#organization",
+        "ornamentalLantern": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ornamentalLantern",
+        "orp": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#orp",
+        "osVersion": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#osVersion",
+        "other": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#other",
+        "outOfService": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#outOfService",
+        "outOfServiceSlotNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#outOfServiceSlotNumber",
+        "outbound": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#outbound",
+        "output": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#output",
+        "overnightParking": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#overnightParking",
+        "overspeed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#overspeed",
+        "ownedBy": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ownedBy",
+            "@type": "@id"
+        },
+        "owner": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#owner",
+            "@type": "@id"
+        },
+        "pH": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pH",
+        "page": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#page",
+        "painting": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#painting",
+        "palace": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#palace",
+        "paleonthology": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#paleonthology",
+        "pantheon": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pantheon",
+        "paper": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#paper",
+        "parallelParking": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#parallelParking",
+        "park": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#park",
+        "parkAndCycle": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#parkAndCycle",
+        "parkAndRide": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#parkAndRide",
+        "parkAndWalk": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#parkAndWalk",
+        "parked": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#parked",
+        "parking": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#parking",
+        "parkingGarage": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#parkingGarage",
+        "parkingLot": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#parkingLot",
+        "parkingMode": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#parkingMode",
+            "@type": "@vocab"
+        },
+        "parksAndGardens": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#parksAndGardens",
+        "partly": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#partly",
+        "patrolled": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#patrolled",
+        "pavilion": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pavilion",
+        "payDesk": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#payDesk",
+        "paymentMachine": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#paymentMachine",
+        "pazo": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pazo",
+        "pedestrianPath": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pedestrianPath",
+        "peopleCount": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#peopleCount",
+        "perpendicularParking": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#perpendicularParking",
+        "pesticide": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pesticide",
+        "petrol": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#petrol",
+        "petrol(leaded)": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#petrol(leaded)",
+        "petrol(unleaded)": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#petrol(unleaded)",
+        "phaseToPhaseVoltage": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#phaseToPhaseVoltage",
+        "phaseVoltage": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#phaseVoltage",
+        "phenologicalCondition": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#phenologicalCondition",
+            "@type": "@vocab"
+        },
+        "phone": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#phone",
+        "pickupType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pickupType",
+            "@type": "@vocab"
+        },
+        "pig": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pig",
+        "planned": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#planned",
+        "plannedEndAt": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#plannedEndAt",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "plannedStartAt": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#plannedStartAt",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "plantingFrom": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#plantingFrom",
+        "plastic": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#plastic",
+        "playground": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#playground",
+        "police": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#police",
+        "pollenConcentration": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pollenConcentration",
+        "polularArchitecture": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#polularArchitecture",
+        "polygon": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#polygon",
+        "popularArtsAndTraditions": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#popularArtsAndTraditions",
+        "portable": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#portable",
+        "postTop": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#postTop",
+        "pothole": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pothole",
+        "power": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#power",
+        "powerConsumption": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#powerConsumption",
+        "powerFactor": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#powerFactor",
+        "powerState": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#powerState",
+            "@type": "@vocab"
+        },
+        "practical": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#practical",
+        "precipitation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#precipitation",
+        "prehistoric": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#prehistoric",
+        "prehistoricCave": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#prehistoricCave",
+        "prehistoricPlace": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#prehistoricPlace",
+        "pressure": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pressure",
+        "pressureTendency": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pressureTendency",
+            "@type": "@vocab"
+        },
+        "previousLocation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#previousLocation",
+        "priceCurrency": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#priceCurrency",
+        "priceRatePerMinute": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#priceRatePerMinute",
+        "primary": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#primary",
+        "private": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#private",
+        "privateVehicle": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#privateVehicle",
+        "proCathedral": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#proCathedral",
+        "process": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#process",
+        "product": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#product",
+        "promenade": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#promenade",
+        "provider": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#provider",
+        "proximitySensor": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#proximitySensor",
+        "public": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#public",
+        "publicBuilding": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#publicBuilding",
+        "publicPhone": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#publicPhone",
+        "publicPrivate": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#publicPrivate",
+        "publicTransport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#publicTransport",
+        "publicTransportStation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#publicTransportStation",
+        "purchaseDate": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#purchaseDate",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "pyramid": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#pyramid",
+        "qualitative": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#qualitative",
+        "quantitative": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#quantitative",
+        "quantity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#quantity",
+        "quarterly": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#quarterly",
+        "railway": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#railway",
+        "rainfall": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#rainfall",
+        "rainwater capture": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#rainwater capture",
+        "raising": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#raising",
+        "ramp": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ramp",
+        "reactiveEnergyConsumed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#reactiveEnergyConsumed",
+        "reactiveEnergyExport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#reactiveEnergyExport",
+        "reactiveEnergyImport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#reactiveEnergyImport",
+        "reactivePower": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#reactivePower",
+        "readyForHarvesting": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#readyForHarvesting",
+        "recommendedLoad": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#recommendedLoad",
+        "rectangular": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#rectangular",
+        "refActivity": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refActivity",
+            "@type": "@id"
+        },
+        "refAgent": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refAgent",
+            "@type": "@id"
+        },
+        "refBuilding": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refBuilding",
+            "@type": "@id"
+        },
+        "refDevice": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refDevice",
+            "@type": "@id"
+        },
+        "refDeviceModel": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refDeviceModel",
+            "@type": "@id"
+        },
+        "refGarden": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refGarden",
+            "@type": "@id"
+        },
+        "refGreenspace": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refGreenspace",
+            "@type": "@id"
+        },
+        "refGtfsTransitFeedFile": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refGtfsTransitFeedFile",
+        "refMap": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refMap",
+        "refObject": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refObject",
+            "@type": "@id"
+        },
+        "refOperator": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refOperator",
+            "@type": "@id"
+        },
+        "refParkingAccess": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refParkingAccess",
+            "@type": "@id"
+        },
+        "refParkingGroup": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refParkingGroup",
+            "@type": "@id"
+        },
+        "refParkingSite": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refParkingSite",
+            "@type": "@id"
+        },
+        "refParkingSpot": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refParkingSpot",
+            "@type": "@id"
+        },
+        "refPointOfInterest": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refPointOfInterest",
+            "@type": "@id"
+        },
+        "refRecord": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refRecord",
+            "@type": "@id"
+        },
+        "refRelatedBuildingOperation": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refRelatedBuildingOperation",
+            "@type": "@id"
+        },
+        "refRelatedDeviceOperation": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refRelatedDeviceOperation",
+            "@type": "@id"
+        },
+        "refRelatedEntity": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refRelatedEntity",
+            "@type": "@id"
+        },
+        "refRoad": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refRoad",
+            "@type": "@id"
+        },
+        "refRoadSegment": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refRoadSegment",
+        "refSeeAlso": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refSeeAlso",
+            "@type": "@id"
+        },
+        "refSmartPointOfInteraction": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refSmartPointOfInteraction",
+            "@type": "@id"
+        },
+        "refSmartSpot": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refSmartSpot",
+            "@type": "@id"
+        },
+        "refStreetlight": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refStreetlight",
+            "@type": "@id"
+        },
+        "refStreetlightControlCabinet": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refStreetlightControlCabinet",
+            "@type": "@id"
+        },
+        "refStreetlightGroup": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refStreetlightGroup",
+            "@type": "@id"
+        },
+        "refStreetlightModel": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refStreetlightModel",
+            "@type": "@id"
+        },
+        "refTarget": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refTarget",
+            "@type": "@id"
+        },
+        "refTargetDevice": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refTargetDevice",
+            "@type": "@id"
+        },
+        "refUser": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refUser",
+            "@type": "@id"
+        },
+        "refUserDevice": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refUserDevice",
+            "@type": "@id"
+        },
+        "refVehicleModel": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refVehicleModel",
+            "@type": "@id"
+        },
+        "refWasteContainer": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refWasteContainer",
+            "@type": "@id"
+        },
+        "refWasteContainerIsle": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refWasteContainerIsle",
+            "@type": "@id"
+        },
+        "refWasteContainerModel": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refWasteContainerModel",
+            "@type": "@id"
+        },
+        "refWeatherObserved": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refWeatherObserved",
+            "@type": "@id"
+        },
+        "refuseBin": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#refuseBin",
+        "regulation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#regulation",
+        "relatedSource": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#relatedSource",
+            "@type": "@id"
+        },
+        "relativeHumidity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#relativeHumidity",
+        "reliability": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#reliability",
+        "religiousCentre": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#religiousCentre",
+        "remainingDistance": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#remainingDistance",
+        "remainingTime": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#remainingTime",
+        "reportedAt": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#reportedAt",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "reproductiveCondition": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#reproductiveCondition",
+            "@type": "@vocab"
+        },
+        "requiredPermit": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#requiredPermit",
+            "@type": "@vocab"
+        },
+        "reservation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#reservation",
+        "reservationType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#reservationType",
+            "@type": "@vocab"
+        },
+        "residence": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#residence",
+        "residentPermit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#residentPermit",
+        "residential": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#residential",
+        "responsible": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#responsible",
+        "restArea": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#restArea",
+        "restaurant": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#restaurant",
+        "result": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#result",
+            "@type": "@vocab"
+        },
+        "retail": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#retail",
+        "reversedLane": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#reversedLane",
+        "riding_hall": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#riding_hall",
+        "river": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#river",
+        "road": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#road",
+        "roadClass": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#roadClass",
+            "@type": "@vocab"
+        },
+        "roadClosed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#roadClosed",
+        "roadSignalling": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#roadSignalling",
+        "roadWorks": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#roadWorks",
+        "robbery": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#robbery",
+        "rodent": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#rodent",
+        "roof": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#roof",
+        "rooftop": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#rooftop",
+        "root": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#root",
+        "rosarium": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#rosarium",
+        "roundedLid": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#roundedLid",
+        "routeColor": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#routeColor",
+        "routeId": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#routeId",
+        "routeSortOrder": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#routeSortOrder",
+        "routeTextColor": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#routeTextColor",
+        "routeType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#routeType",
+            "@type": "@vocab"
+        },
+        "rssi": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#rssi",
+        "ruins": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#ruins",
+        "sacredArt": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sacredArt",
+        "safeDeposit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#safeDeposit",
+        "salinity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#salinity",
+        "sanctuary": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sanctuary",
+        "saturday": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#saturday",
+        "scheduled": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#scheduled",
+        "school": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#school",
+        "schoolTransportation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#schoolTransportation",
+        "scienceAndTechnology": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#scienceAndTechnology",
+        "sculpturalGroups": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sculpturalGroups",
+        "sculpture": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sculpture",
+        "seasonTicket": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#seasonTicket",
+        "secondary": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#secondary",
+        "security": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#security",
+        "securityStaff": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#securityStaff",
+        "seeAlso": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#seeAlso",
+        "seeded": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#seeded",
+        "semiautomatic": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#semiautomatic",
+        "seminar": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#seminar",
+        "sensing": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sensing",
+        "serialNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#serialNumber",
+        "service": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#service",
+        "serviceArea": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#serviceArea",
+        "serviceProvided": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#serviceProvided",
+            "@type": "@vocab"
+        },
+        "serviceStatus": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#serviceStatus",
+            "@type": "@vocab"
+        },
+        "severity": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#severity",
+            "@type": "@vocab"
+        },
+        "sex": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sex",
+            "@type": "@vocab"
+        },
+        "shape": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#shape",
+            "@type": "@vocab"
+        },
+        "shed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#shed",
+        "sheds": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sheds",
+        "sheep": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sheep",
+        "shop": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#shop",
+        "shoppingCentre": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#shoppingCentre",
+        "shortName": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#shortName",
+        "shortTerm": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#shortTerm",
+        "shower": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#shower",
+        "showers": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#showers",
+        "shrine": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#shrine",
+        "sick": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sick",
+        "sideEntry": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sideEntry",
+        "sidewalk": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sidewalk",
+        "signLight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#signLight",
+        "signalStrength": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#signalStrength",
+            "@type": "@vocab"
+        },
+        "singleLevel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#singleLevel",
+        "singleSpaceDetection": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#singleSpaceDetection",
+        "siredBy": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#siredBy",
+            "@type": "@id"
+        },
+        "skilift": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#skilift",
+        "smoke": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#smoke",
+        "snail": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#snail",
+        "snow": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#snow",
+        "snow/ice": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#snow/ice",
+        "snowHeight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#snowHeight",
+        "socketNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#socketNumber",
+        "socketType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#socketType",
+            "@type": "@vocab"
+        },
+        "softwareVersion": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#softwareVersion",
+        "soilMoisture": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#soilMoisture",
+        "soilMoistureEC": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#soilMoistureEC",
+        "soilMoistureEc": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#soilMoistureEc",
+        "soilMoistureVwc": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#soilMoistureVwc",
+        "soilSalinity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#soilSalinity",
+        "soilTemperature": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#soilTemperature",
+        "solarRadiation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#solarRadiation",
+        "solarRadiaton": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#solarRadiaton",
+        "sonometerClass": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sonometerClass",
+            "@type": "@vocab"
+        },
+        "source": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#source",
+        "spacesAvailable": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#spacesAvailable",
+        "specialLocation": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#specialLocation",
+            "@type": "@vocab"
+        },
+        "specialTransport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#specialTransport",
+        "specialUsage": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#specialUsage",
+        "specials": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#specials",
+        "species": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#species",
+            "@type": "@vocab"
+        },
+        "specificFacility": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#specificFacility",
+        "specificIdentifiedVehiclePermit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#specificIdentifiedVehiclePermit",
+        "speed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#speed",
+        "spring": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#spring",
+        "square": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#square",
+        "stable": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#stable",
+        "stadium": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#stadium",
+        "staffGuidesToSpace": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#staffGuidesToSpace",
+        "staffed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#staffed",
+        "startDate": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#startDate",
+        "startKilometer": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#startKilometer",
+        "startPoint": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#startPoint",
+        "startTime": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#startTime",
+        "startedAt": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#startedAt",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "static_caravan": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#static_caravan",
+        "status": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#status",
+            "@type": "@vocab"
+        },
+        "steady": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#steady",
+        "steel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#steel",
+        "stopHeadsign": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#stopHeadsign",
+        "stopId": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#stopId",
+        "stopSequence": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#stopSequence",
+        "storedWasteCode": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#storedWasteCode",
+        "storedWasteKind": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#storedWasteKind",
+            "@type": "@vocab"
+        },
+        "storedWasteOrigin": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#storedWasteOrigin",
+            "@type": "@vocab"
+        },
+        "streamGauge": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#streamGauge",
+        "streetCleaning": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#streetCleaning",
+        "streetLighting": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#streetLighting",
+        "strongWaves": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#strongWaves",
+        "studentPermit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#studentPermit",
+        "sty": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sty",
+        "style": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#style",
+            "@type": "@vocab"
+        },
+        "subCategory": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#subCategory",
+        "sumptuaryArts": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sumptuaryArts",
+        "sunLoungerRental": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sunLoungerRental",
+        "sunday": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sunday",
+        "sunshadeRental": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sunshadeRental",
+        "supportedUnits": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#supportedUnits",
+        "surfPracticeArea": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#surfPracticeArea",
+        "surface": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#surface",
+        "suspiciousAction": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#suspiciousAction",
+        "sweepingMachine": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#sweepingMachine",
+        "switchingMode": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#switchingMode",
+            "@type": "@vocab"
+        },
+        "switchingOnHours": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#switchingOnHours",
+        "synagogue": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#synagogue",
+        "tanker": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tanker",
+        "taulasTalayotsNavetas": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#taulasTalayotsNavetas",
+        "taxi": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#taxi",
+        "taxon": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#taxon",
+        "tds": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tds",
+        "telephone": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#telephone",
+        "temperature": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#temperature",
+        "temple": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#temple",
+        "temporaryPrice": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#temporaryPrice",
+        "terrace": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#terrace",
+        "tertiary": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tertiary",
+        "textile": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#textile",
+        "thdCurrent": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#thdCurrent",
+        "thdVoltage": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#thdVoltage",
+        "thdrIntensity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#thdrIntensity",
+        "thdrVoltage": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#thdrVoltage",
+        "theathre": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#theathre",
+        "thematic": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#thematic",
+        "themePark": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#themePark",
+        "thunderstorms": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#thunderstorms",
+        "thursday": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#thursday",
+        "timepoint": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#timepoint",
+            "@type": "@vocab"
+        },
+        "timezone": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#timezone",
+        "toilet": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#toilet",
+        "toilets": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#toilets",
+        "toll": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#toll",
+        "tollTerminal": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tollTerminal",
+        "tornado": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tornado",
+        "totalActiveEnergyExport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalActiveEnergyExport",
+        "totalActiveEnergyImport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalActiveEnergyImport",
+        "totalActivePower": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalActivePower",
+        "totalApparentEnergyExport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalApparentEnergyExport",
+        "totalApparentEnergyImport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalApparentEnergyImport",
+        "totalApparentPower": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalApparentPower",
+        "totalDisplacementPowerFactor": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalDisplacementPowerFactor",
+        "totalLaneNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalLaneNumber",
+        "totalPowerFactor": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalPowerFactor",
+        "totalReactiveEnergyExport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalReactiveEnergyExport",
+        "totalReactiveEnergyImport": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalReactiveEnergyImport",
+        "totalReactivePower": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalReactivePower",
+        "totalSlotNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalSlotNumber",
+        "totalSpotNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#totalSpotNumber",
+        "touristArea": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#touristArea",
+        "touristOffice": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#touristOffice",
+        "tower": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tower",
+        "town": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#town",
+        "tracked": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tracked",
+        "traffic": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#traffic",
+        "trafficFlow": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#trafficFlow",
+        "trafficJam": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#trafficJam",
+        "trailer": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#trailer",
+        "trainStation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#trainStation",
+        "train_station": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#train_station",
+        "tram": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tram",
+        "transferType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#transferType",
+            "@type": "@vocab"
+        },
+        "transformer_tower": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#transformer_tower",
+        "transportation": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#transportation",
+        "transports": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#transports",
+        "trashCan": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#trashCan",
+        "trolley": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#trolley",
+        "tropicalCyclone": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tropicalCyclone",
+        "truck": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#truck",
+        "truckParking": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#truckParking",
+        "trunk": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#trunk",
+        "tss": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tss",
+        "tsunami": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tsunami",
+        "tuesday": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tuesday",
+        "tunnel": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#tunnel",
+        "turbidity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#turbidity",
+        "uVIndexMax": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#uVIndexMax",
+        "unclassified": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#unclassified",
+        "underground": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#underground",
+        "unesco": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#unesco",
+        "universitary": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#universitary",
+        "university": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#university",
+        "unknown": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#unknown",
+        "updatedAt": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#updatedAt",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "urban": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#urban",
+        "urbanDeterrentParking": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#urbanDeterrentParking",
+        "urbanTransit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#urbanTransit",
+        "urbanTreeSpot": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#urbanTreeSpot",
+        "url": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#url",
+        "usageScenario": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#usageScenario",
+            "@type": "@vocab"
+        },
+        "validFrom": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#validFrom",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "validTo": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#validTo",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "validity": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#validity",
+        "value": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#value",
+        "van": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#van",
+        "vehicleConfiguration": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#vehicleConfiguration",
+        "vehicleEngine": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#vehicleEngine",
+        "vehicleIdentificationNumber": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#vehicleIdentificationNumber",
+        "vehicleLift": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#vehicleLift",
+        "vehicleModelDate": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#vehicleModelDate",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "vehicleOnRailTerminal": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#vehicleOnRailTerminal",
+        "vehiclePlateIdentifier": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#vehiclePlateIdentifier",
+        "vehicleSpecialUsage": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#vehicleSpecialUsage",
+            "@type": "@vocab"
+        },
+        "vehicleSubType": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#vehicleSubType",
+        "vehicleType": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#vehicleType",
+            "@type": "@vocab"
+        },
+        "vendingMachine": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#vendingMachine",
+        "version": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#version",
+        "veryBad": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#veryBad",
+        "veryGood": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#veryGood",
+        "veryHigh": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#veryHigh",
+        "virus": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#virus",
+        "visitorPermit": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#visitorPermit",
+        "voltage": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#voltage",
+        "walledArea": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#walledArea",
+        "walls": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#walls",
+        "warehouse": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#warehouse",
+        "wasteContainerCleaning": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#wasteContainerCleaning",
+        "wasteDisposal": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#wasteDisposal",
+        "water": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#water",
+        "water dam": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#water dam",
+        "waterConsumption": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#waterConsumption",
+        "waterCraftRental": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#waterCraftRental",
+        "waterPollution": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#waterPollution",
+        "waterSource": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#waterSource",
+            "@type": "@vocab"
+        },
+        "water_tower": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#water_tower",
+        "wateringFrequency": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#wateringFrequency",
+            "@type": "@vocab"
+        },
+        "wax": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#wax",
+        "weather": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#weather",
+        "weatherConditions": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#weatherConditions",
+        "wednesday": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#wednesday",
+        "weekly": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#weekly",
+        "weight": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#weight",
+        "welfareCondition": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#welfareCondition",
+            "@type": "@vocab"
+        },
+        "wheelChairAccessible": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#wheelChairAccessible",
+            "@type": "@vocab"
+        },
+        "wheelieBin": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#wheelieBin",
+        "wheels": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#wheels",
+        "whiteSand": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#whiteSand",
+        "width": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#width",
+        "wifi": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#wifi",
+        "wind": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#wind",
+        "windDirection": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#windDirection",
+        "windSpeed": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#windSpeed",
+        "windy": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#windy",
+        "withIncidence": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#withIncidence",
+        "wood": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#wood",
+        "workOrder": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#workOrder",
+        "workRecord": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#workRecord",
+        "working": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#working",
+        "workingLife": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#workingLife",
+        "workingMode": {
+            "@id": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#workingMode",
+            "@type": "@vocab"
+        },
+        "yearly": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#yearly",
+        "zen": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#zen",
+        "zoneCode": "https://raw.githubusercontent.com/ravishankar-19901113/jsonld/master/context1.jsonld#zoneCode"
+    },
+    "generatedAt": "2019-11-14T15:43:38+00:00"
+}
